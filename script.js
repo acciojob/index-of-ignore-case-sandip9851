@@ -1,5 +1,9 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+	const mainContent = s1.toLowerCase();
+	let checkItem = s2.toLowerCase();
+	const index = mainContent.inindexOf(checkItem);
+	console.log(index);
 }
 
 // Please do not change the code below
