@@ -3,7 +3,7 @@ function indexOfIgnoreCase(s1, s2) {
 	const mainContent = s1.toLowerCase();
 	let checkItem = s2.toLowerCase();
 	const index = mainContent.indexOf(checkItem);
-	console.log(index);
+	return index;
 }
 
 // Please do not change the code below
